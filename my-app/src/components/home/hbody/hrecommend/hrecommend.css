@@ -1,0 +1,11 @@
+.homerecommend{
+    padding: 0 12px;
+}
+.homerecommend i{
+    font-size: 34px;
+}
+.homerecommend-title{
+    font-size: 34px;
+    height: 66px;
+    line-height: 66px;
+}

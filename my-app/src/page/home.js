@@ -1,6 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Flex } from 'antd-mobile';
+
+
+import {
+  Route,
+} from 'react-router-dom';
+
+//引入iconfont.css
+import '../iconfont/iconfont.css';
+
+//头部组件
+import Hheader from '../components/home/hheader/hheader';
+import Hfooter from '../components/home/hfooter/hfooter';
+import Hbody from '../components/home/hbody/hbody';
+import  userSongsMenu  from './userSongsMenu';
 
 class App extends Component {
 	constructor(props){
@@ -8,19 +21,14 @@ class App extends Component {
       this.state={
         
       }
-      console.log(Flex.Item)
     }
   render() {
     return (
-      <div className="App">
-        主页
-        <Flex justify='center' >
-          <Flex.Item >
-            <div ></div>
-          </Flex.Item>
-          <Flex.Item>2</Flex.Item>
-          <Flex.Item>3</Flex.Item>
-        </Flex>
+      <div className="App" style={{display:'flex',flexDirection:'column',height:'100%',width:'100%'}}>
+        <Hheader />
+        <Route path="/home" component={Hbody}/>
+        <Route path="/home/userSongsMenu" component={userSongsMenu}/>
+        <Hfooter />
       </div>
     );
   }
@@ -32,4 +40,3 @@ export default connect(
     }
 }
 )(App);
-

@@ -1,0 +1,5 @@
+.homebody{
+    flex:1;
+    overflow-y: auto;
+    background: #fff;
+}

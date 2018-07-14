@@ -1,0 +1,82 @@
+html,body{
+    height:100%;
+}
+#box{
+    height: 100%;display:flex;flex-direction: column;
+}
+
+.t_top{
+	width: 100%;
+	box-sizing: border-box;
+	height:1.333333rem;
+	background:#DF4239;
+	padding: 0 0.4rem;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.t_top .t_tle{
+	float: left;
+	font-size:0.466666rem;
+	line-height: 1.333333rem;
+	color:#fff;
+}
+.t_top .t_tle .flow{
+	font-size:0.506666rem;
+	margin-right:0.4rem;
+	color:#fff;
+}
+.t_top .t_tri{
+	float:right;
+	font-size: 0.466666rem;
+	line-height: 1.333333rem;
+	color:#fff;
+}
+.t_top .t_tri a{
+	color:#fff;
+}
+
+.t_main{
+	margin:1.333333rem 0 0;
+}
+
+.t_tuij{
+	height:7.2rem;
+	border-bottom:0.266666rem solid #ccc;
+}
+.t_tuij h1{
+	font-size:0.426666rem;
+	font-weight:500;
+	margin: 0.4rem 0;
+	padding-left:0.266666rem;
+	border-left:5px solid skyblue;
+}
+.t_tuij .tui_p{
+	height: 5.733333rem;
+	overflow-x:auto;
+    overflow-y:hidden;
+}
+.t_tuij .tui_p li{
+	width: 24%;
+	float: left;
+	height:5.733333rem;
+	margin-left:0.066666rem;
+	position: relative;
+}
+.t_tuij .tui_p .tui_lit{
+	height: 4.4rem;
+}
+.t_tuij .tui_p h2{
+	line-height: 1.066666rem;
+	text-align: center;
+	font-size:0.346666rem;
+}
+
+.duo{
+	font-size: 0.666666rem;
+	position: absolute;
+	top:3.466666rem;
+	left:0.266666rem;
+	font-weight:700;
+	color:blue;
+}

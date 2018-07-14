@@ -1,0 +1,76 @@
+.pagelist{
+    position:absolute;
+    height: 100%;
+    /* display: flex; */
+    width: 100%;
+    background:rgba(105,105,105,0.5);
+    bottom:0;
+    /* left: 0; */
+    /* flex-direction:column; */
+}
+.pagelist-bg{
+    position:absolute;
+    height: 823px;
+    display: flex;
+    width: 100%;
+    background:#fff;
+    bottom:0;
+    left: 0;
+    flex-direction:column;
+}
+.pagelist-title{
+    display: flex;
+    height: 106px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0 36px;
+    font-size: 28px;
+}
+.pagelist-title-l{
+    display:flex;
+}
+.pagelist-title-l i{
+    margin: 0;
+}
+.pagelist-title-l p{
+    display: inline-block;
+    /* height: 100%; */
+    line-height: 104px;
+    padding-left: 38px;
+}
+.pagelist-title-l, .pagelist-title-r{
+    flex: 1;
+}
+.pagelist-title-l i, .pagelist-title-r i{
+    font-size: 34px;
+}
+.pagelist-title-r{
+    text-align: right;
+}
+.pagelist-content{
+    flex:1;
+    overflow-y: auto; 
+}
+.pagelist-content li{
+    display: flex;
+    height: 104px;
+    
+}
+.pagelist-content li .songNum{
+    padding: 0 36px;
+    line-height: 104px;
+}
+.pagelist-content li .songName{
+    flex: 1;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-right: 36px;
+    justify-content:space-between;
+}
+.pagelist-content li .songName span{
+    line-height: 104px;
+    font-size: 30px;
+}
+.pagelist-content li .songName i{
+    font-size: 34px;
+}

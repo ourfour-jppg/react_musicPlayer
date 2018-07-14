@@ -1,0 +1,17 @@
+.homeHeader{
+    background: #DF4239;
+    height: 108px;
+    padding: 0 12px;
+}
+.homeHeader a{
+    color:#fff;
+    line-height: 108px;
+    display: block;
+    text-align: center;
+}
+.homeHeader a i{
+    font-size: 50px;
+}
+.flex-container{
+    width: 100%;
+}

@@ -1,0 +1,34 @@
+#SongsSelectBottom{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	background: #fff;
+	border-top:1px solid #EDF1F0;
+}
+#SongsSelectBottom ul {
+	height: 112px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#SongsSelectBottom ul li {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #979797;
+	font-size: 22px;
+}
+
+#SongsSelectBottom ul li i {
+	font-size:50px;
+	color: #4D4D4D;
+	margin-bottom:6px;
+}
+#SongsSelectBottom ul li .icon-xiayiqu101,#SongsSelectBottom ul li .icon-tianjia{
+	font-size: 40px;
+	/*font-weight: bold;*/
+	margin-bottom:10px;
+}
+

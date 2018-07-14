@@ -1,0 +1,86 @@
+#login{
+	background: #F7F7F7;
+	
+	height: 100%;
+}
+#login >p{
+	display: flex;
+	justify-content:space-between;
+}
+#login >p a{
+	font-size: 30px;
+	color:#2299ED;
+	margin:0 30px; 
+}
+#login .top{
+	background: #2299ED;
+	height:100px;
+	color:#fff;
+	font-size: 34px;
+	line-height: 100px;
+}	
+#login .top i{
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 100px;
+	margin: 0 23px;
+}
+#login .ts{
+	height: 38px;
+	width: 100%;
+	font-size: 20px;
+	line-height: 38px;
+	color:red;
+}
+#login .yuan{
+	height: 200px;
+	position: relative;
+}
+#login .yuan span{
+	display: inline-block;
+	border-radius: 50%;
+	background: #ccc;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+
+}
+#login ul{
+
+	border-top:1px solid #EAEAEA;
+	background: #fff;
+}
+#login ul li{
+	color:#000;
+	font-size: 34px;
+	height: 100px;
+	line-height: 100px;
+	border-bottom: 1px solid #EAEAEA;
+}
+#login ul li i{
+	font-size: 40px;
+	line-height: 100px;
+	font-weight: bold;
+	margin-right: 45px;
+	float: right;
+}
+#login ul li label{
+	margin: 0 26px
+}
+#login ul li label input{
+	margin-left: 26px;
+	font-size: 34px;
+}
+#login button{
+	color:#fff;
+	height: 100px;
+	line-height: 100px;
+	font-size: 34px;
+	width: 676px;
+	margin: 38px;
+	border-radius: 15px;
+	background: #2299ED;
+}

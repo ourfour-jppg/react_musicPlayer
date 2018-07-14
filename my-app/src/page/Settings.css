@@ -1,0 +1,81 @@
+#setting{
+	width: 470px;
+	padding:0 50px;
+	height: 100%;
+}
+
+#setting .login{
+	padding-top:50px;
+	height: 167px;
+	line-height: 167px;
+
+}
+#setting .login a{
+
+}
+#setting .login span{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	vertical-align: middle;
+	background: #ccc;
+	margin-right: 50px;
+	
+}
+#setting .login i{
+	font-size: 35px;
+	vertical-align: middle;
+}
+#setting a{
+	color:#fff;
+}
+#setting ul{
+	height: 980px;
+}
+#setting ul a{
+	display: block;
+	line-height: 100px;
+	font-size: 35px;
+	overflow: hidden;
+	position: relative;
+}
+#setting ul a i{
+	font-size: 40px;
+	margin-right: 30px;
+}
+#setting ul .active em{
+	/*transform:scaleX(1.1);*/
+	transition: all 0.3s;	
+	left:0;
+	top:0;
+	width: 100%;
+	height: 90px;
+	border-radius: 20%;
+	opacity: 1;
+	
+}
+#setting ul a em{
+	transform:scale(1);
+	display: block;
+	opacity: 0;
+	background: #00000050;
+	width: 10px;
+	border-radius: 50%;
+	height: 10px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transition: all 0s;
+}
+#setting .floor{
+	display: flex;
+	justify-content: space-between;
+}
+#setting .floor a{
+	font-size: 35px;
+}
+#setting .floor a i{
+	font-size: 35px;
+	margin-right: 10px;
+}

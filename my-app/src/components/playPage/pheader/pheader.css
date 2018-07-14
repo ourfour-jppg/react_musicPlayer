@@ -1,0 +1,22 @@
+.playheader{
+    height:106px;
+    display: flex;
+
+}
+.playheader .playBack{
+    width: 116px;
+}
+.playheader .playTitle{
+    flex:1;
+}
+.playheader .playTitle p{
+    line-height: 106px;
+    font-size: 32px;
+    color:#fff;
+}
+.playheader .playShare{
+    width: 100px;
+}
+.playheader i{
+    color:#ffffff;
+}

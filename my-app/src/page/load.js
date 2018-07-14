@@ -8,9 +8,12 @@ class App extends Component {
       }
     }
   render() {
+    console.log(1)
     return (
       <div >
-        载入页面
+        <audio src="http://59.37.84.4/mp3.9ku.com/m4a/183203.m4a" id="myAudio">
+
+        </audio>
       </div>
     );
   }

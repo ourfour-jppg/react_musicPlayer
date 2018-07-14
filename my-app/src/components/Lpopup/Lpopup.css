@@ -1,0 +1,50 @@
+.bo{
+	height:2000px;
+	width:100%;
+	background: rgba(0,0,0,0.6);
+	z-index:100;
+	position:fixed;
+	top:0;
+}
+.popup{
+	height:784px;
+	background: #F3F3F3;
+	border-radius: 20px 20px 0 0;
+	position:fixed;
+	bottom:0;
+	z-index: 110;
+	padding: 20px 0 20px 20px;
+	overflow-y:auto;
+    overflow-x:hidden;
+}
+.popup::-webkit-scrollbar {display:none}
+.popup h1{
+	line-height: 60px;
+	font-size: 24px;
+	color:#333;
+	font-weight: 400;
+}
+.popup .sonlist li{
+	height:96px;
+	line-height:96px;
+}
+.popup .sonlist li .ile{
+	display: block;
+	float: left;
+	width: 70px;
+	height: 96px;
+	line-height: 96px;
+	font-size: 42px;
+	color:#D82934;
+	margin-left:10px;
+}
+.popup .sonlist li .iri{
+	display: block;
+	float:right;
+	width: 650px;
+	height:96px;
+	border-bottom:1px solid #ccc;
+	font-size: 26px;
+	color:#333;
+	line-height:96px;
+}

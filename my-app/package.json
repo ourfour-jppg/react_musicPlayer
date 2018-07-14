@@ -5,6 +5,7 @@
   "dependencies": {
     "antd-mobile": "^2.2.1",
     "babel-plugin-import": "^1.8.0",
+    "big-integer": "^1.6.32",
     "jquery": "^3.3.1",
     "postcss-pxtorem": "^4.0.1",
     "react": "^16.4.1",

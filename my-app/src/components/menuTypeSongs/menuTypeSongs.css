@@ -1,0 +1,180 @@
+#menuTypeSongs{
+	position:absolute;
+	top:0;
+	/*right:0;
+	left:0;*/
+	z-index:4;
+	overflow-x: hidden;
+	height: 100%;
+	width: 750px;
+	background: #fff;
+}
+#menuTypeSongs #menuTop{
+	widht:100%;
+	
+}
+#menuTypeSongs #menuTop i,#menuTypeSongs #menuTop span{
+	color:#fff;
+}
+#menuTypeSongs #menuTop i{
+	flex:1;
+}
+#menuTypeSongs #menuTop .presentPlay{
+	flex:5;
+}
+#menuTypeSongs #menuTop .clearAll{
+	padding-right: 22px;
+	flex:2;
+	text-align: right;
+}
+#menuTypeSongs #playBar{
+	border-radius: 0 0 0 0;
+	height: 60px;
+	line-height: 60px;
+	padding-right: 22px;
+}
+#menuTypeSongs #playBar span{
+	color:#000;
+}
+#menuTypeSongs #playBar .total{
+	color:#979798;
+}
+#menuTypeSongs .chooseMore{
+	float:right;
+}
+#menuTypeSongs .chooseMore i{
+	font-size: 38px;
+	
+
+}
+#menuTypeSongs .icon-xuanxiangkuangqueding{
+	color:#D33A31;
+}
+#menuTypeSongs .listSongs{
+	background: #fff;
+	margin-bottom: 112px;
+}
+
+#menuTypeSongs .songsList li{
+	display: flex;
+	
+}
+#menuTypeSongs .songsList .icon-gengduoxiao{
+	padding-right: 40px;
+}
+#menuTypeSongs .songsList .index{
+	padding:10px;
+	width: 42px;
+	text-align: center;
+	font-size: 32px;
+	line-height: 112px;
+	color:#8A8E8D;
+}
+#menuTypeSongs .songsList .name{
+	padding:18px;
+	width: 532px;
+	border-bottom: 1px solid #EDF1F0;
+}
+#menuTypeSongs .name p:nth-child(1){
+	font-size: 32px;
+	line-height: 56px;
+}
+#menuTypeSongs .name p:nth-child(2){
+	font-size: 26px;
+	line-height: 60px;
+	color:#828383;
+}
+#menuTypeSongs .songsList i{
+	line-height: 156px;
+	font-size: 40px;
+	border-bottom:1px solid #EDF1F0;
+	
+}
+#menuTypeSongs .songsList .play{
+	padding-right: 40px;
+}
+
+
+#SongsSelectBottom{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	background: #fff;
+	border-top:1px solid #EDF1F0;
+}
+#SongsSelectBottom ul {
+	height: 112px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#SongsSelectBottom ul li {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	color: #979797;
+	font-size: 22px;
+}
+
+#SongsSelectBottom ul li i {
+	font-size:50px;
+	color: #4D4D4D;
+	margin-bottom:6px;
+}
+#SongsSelectBottom ul li .icon-xiayiqu101,#SongsSelectBottom ul li .icon-tianjia{
+	font-size: 40px;
+	/*font-weight: bold;*/
+	margin-bottom:10px;
+}
+
+#confirmDiv{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top:0;
+	bottom: 0;
+	z-index:3;
+	background: rgba(0,0,0,0.4);
+}
+.confirmBox{
+	width: 536px;
+	height: 232px;
+	background: #fff;
+	margin:0 auto;
+	margin-top:60%;
+	border-radius: 6px;
+}
+.confirmBox p{
+	padding-left: 42px;
+	font-size: 26px;
+	line-height:126px ;
+	color:#989898;
+}
+.confirmBox .confirm{
+	padding-left: 180px;
+}
+#confirmDiv .confirm span{
+	margin-left: 94px;
+	font-size: 26px;
+	color:#D23329;
+	line-height: 80px;
+}
+.loginWarning{
+	width: 100%;
+	font-size: 30px;
+	color:red;
+	background: #fff;
+	position:fixed;
+	top:500px;
+	text-align: center;
+}
+.loginWarning .toLogin{
+	width: 200px;
+	height: 60px;
+	border:1px solid #ccc;
+	margin:10px auto;
+	color:#666;
+	line-height: 60px;
+}

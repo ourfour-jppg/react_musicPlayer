@@ -1,0 +1,75 @@
+.big{
+	height:2000px;
+	width:100%;
+	background: rgba(0,0,0,0.6);
+	z-index:100;
+	position:fixed;
+	top:0;
+	z-index: 200;
+	
+}
+.big .min{
+	width:9.2rem;
+	min-height:4rem;
+	background: #555;
+	border-radius: 10px;
+	position: fixed;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 0 0.266666rem;
+
+}
+.big .min h1{
+	font-size:0.426666rem;
+	line-height: 1.333333rem;
+	color: #fff;
+}
+.big .min .danlist{
+	min-height: 2.666666rem;
+	max-height: 6.666666rem;
+	overflow-y:auto;
+    overflow-x:hidden;
+}
+.big .min .danlist li{
+	height: 1.333333rem;
+	box-sizing: border-box;
+	padding: 0.133333rem 0;
+}
+.big .min .danlist li .dan_le{
+	float: left;
+	width: 1.066666rem;
+	height: 1.066666rem;
+	font-size: 50px;
+	text-align: center;
+	line-height: 1.066666rem;
+	color: #fff;
+	border-radius: 0.066666rem;
+	background: rgba(0,0,0,0.3);
+}
+.big .min .danlist li .dan_ri{
+	float: left;
+	width:2.666666rem;
+	height: 1.066666rem;
+	font-size: 0.373333rem;
+	line-height: 1.066666rem;
+	color: #fff;
+	padding-left:0.4rem;
+}
+.big .min .danlist li .dan_rii{
+	float: left;
+	width:5.333333rem;
+	height: 1.066666rem;
+	color: #fff;
+	padding-left:0.4rem;
+}
+.big .min .danlist li .dan_rii .danh1{
+	font-size:0.373333rem;
+	color: #fff;
+}
+.big .min .danlist li .dan_rii .danh2{
+	font-size:0.266666rem;
+	color: #ccc;
+	margin-top:0.266666rem;
+}

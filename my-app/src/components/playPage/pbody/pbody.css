@@ -1,0 +1,41 @@
+.playbody{
+    text-align: center;
+}
+.playbody-cd{
+    border: 12px solid #ccc;
+    background: #0C1013;
+    border-radius: 50%;
+    padding: 86px 86px;
+    display: inline-block;
+    margin: 103px 0;
+    
+}
+.cd-rotate{
+    animation:rotate 10s infinite linear;
+}
+.playbody-img{
+    width: 370px;
+    height: 370px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url('./big-cd-logo.jpg') center center;
+}
+.playbody-img img{
+    width: 370px;
+    height: 370px;
+}
+.playbody-classify{
+    display: flex;
+    padding: 0 100px;
+}
+.playbody-classify div{
+    flex:1;
+}
+/* 动画 */
+
+@keyframes rotate
+{
+    0% {transform:rotateZ(0deg);}
+    100% {transform:rotateZ(360deg);}
+}

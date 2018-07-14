@@ -1,0 +1,28 @@
+#menuTypes{
+	
+}
+.menuTypesIcon{
+	font-size: 42px;
+	color:#C52821;
+	line-height: 104px;
+}
+#menuTypes .p0{
+	/*display: inline-block;*/
+	font-size: 28px;
+	width: 650px;
+	height: 104px;
+	margin-left: 26px;
+	color:#000;
+	line-height: 104px;
+	border-bottom: 1px solid #EDF1F0;
+}
+#menuTypes a{
+	display: flex;
+}
+#menuTypes span{
+	color:#919594;
+	margin-left: 6px;
+}
+#menuTypes>ul{
+	padding-left: 30px;
+}

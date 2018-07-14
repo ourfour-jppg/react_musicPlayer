@@ -1,0 +1,9 @@
+.playPage{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    background: url('./needAll.jpg') no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,25 @@
+#menuTop{
+	height: 104px;
+	font-size:36px;
+	color:#fff;
+	display: flex;
+	line-height: 104px;
+	background: #84A9BC;
+}
+#menuTop .icon-flow{
+	flex:1;
+	padding-left: 32px;
+	font-size: 38px;
+}
+#menuTop span{
+	flex:8;
+	
+}
+#menuTop .icon-sousuo{
+	flex:1.2;
+	font-size: 40px;
+}
+#menuTop .icon-gengduoxiao{
+	flex:1;
+	font-size: 40px;
+}
